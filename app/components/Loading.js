@@ -1,5 +1,5 @@
-const React = require("react");
-const PropTypes = require("prop-types");
+import React from "react"
+import PropTypes from "prop-types"
 
 const styles = {
     content: {
@@ -46,4 +46,4 @@ Loading.defaultProps = {
     text: 'Loading',
     speed: 300
 };
-module.exports = Loading;
+export default Loading;
